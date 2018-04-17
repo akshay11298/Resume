@@ -1,0 +1,25 @@
+.font-tarsus{
+    font-family: 'Tarsus';
+    color: #4d4d4d;
+}
+.menu{
+    margin-left: 20%;
+}
+
+.nav-link:hover{
+    animation-name: link-color-change;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    cursor: grab;
+}
+
+.active-link{
+    color:#61D0D4 !important;
+    animation: none !important;
+}
+
+
+@keyframes  link-color-change{
+    from {color:#4d4d4d}
+    to {color: #61d0d4}
+}

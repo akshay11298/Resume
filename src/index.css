@@ -1,6 +1,9 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding-bottom: 6rem;
+  position: relative;
+  height: 100%;
   background-color: #eae5e5;
 }
+
+

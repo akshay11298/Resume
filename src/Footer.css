@@ -1,0 +1,28 @@
+.Footer {
+    width: 100% !important;
+    bottom: 5% !important;
+    margin: 0;
+    background-color: #E83556;
+    height: 15%;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #61d0d4;
+    height: 100%;
+    width: 100%;
+}
+
+.img-circle{
+     color: #61d0d4 !important;
+ }
+
+.content{
+    color: white !important;
+    text-decoration: none !important;
+    float: left !important;
+}
+
+.heading{
+    float: right !important;
+}

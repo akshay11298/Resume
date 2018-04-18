@@ -6,11 +6,10 @@ import {Footer} from "./Footer";
 class App extends Component {
   render() {
     return (
-        <div style={{margin:'0 auto'}} className={"App"}>
-          <div className="Site-content">
-            <Content/>
-          </div>
-
+        <div style={{height:'100%'}}>
+            <div className={"App"} style={{minHeight:'100%'}} >
+                <Content/>
+            </div>
             <Footer/>
         </div>
     );

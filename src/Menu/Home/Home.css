@@ -1,0 +1,23 @@
+.about-me{
+    height: 9em;
+    width: 9em;
+    border-radius: 4.5em;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.about-me:hover{
+    animation-name: overlays;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes overlays {
+    from {opacity: 1}
+    to {opacity: 0.6}
+}

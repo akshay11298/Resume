@@ -35,12 +35,18 @@ export default class Content extends Component{
         console.log(this.state.content);
     };
 
+    contentChange=(index)=>{
+      this.setState({
+          content:index
+      })
+    };
+
     render(){
         return(
             <div>
             <header>
                 <h1 className="font-tarsus" style={{fontSize:'4em'}}>Akshay Avinash</h1>
-                <div className="row">
+                <div className="row" id={"head"}>
                     <div className={"col-md-5"}>
                     <h2 className="font-tarsus" style={{fontSize:'1.7em',paddingTop:'3%'}}>Computer Science Engineer</h2>
                     </div>
@@ -60,7 +66,7 @@ export default class Content extends Component{
                 </div>
             </header>
                 {this.state.content===0 &&
-                <Home current={this.state.content}/>
+                <Home current={this.state.content} onContentChange={this.contentChange} />
                 }
                 {this.state.content===1 &&
                 <Resume current={this.state.content}/>

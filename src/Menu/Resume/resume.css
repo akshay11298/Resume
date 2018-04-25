@@ -1,14 +1,19 @@
 .circle {
-    border-radius: 50%;
-    width: 9vw ;
-    height: 11.16vw;
-    padding:0 !important;
+    height: 13em !important;
+    width: 13em !important;
+    border-radius: 6.5em;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
 
 }
 .circle .font-tarsus{
     font-size: 1.5em;
     position:absolute;
-    top:3.5vw; left:2.5vw;
+    top:4vw; left:2vw;
     /*transform: translate(-5vw, -5vw);*/
     margin:0;
     color: white;
@@ -18,4 +23,16 @@
 .content{
     padding-top: 50%;
     padding-bottom: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .circle .font-tarsus{
+        font-size: 1.5em;
+        position:absolute;
+        top:7vw; left:6vw;
+        /*transform: translate(-5vw, -5vw);*/
+        margin:0;
+        color: white;
+        margin-left: 5px;
+    }
 }

@@ -11,6 +11,7 @@ class App extends Component {
                 <Content/>
             </div>
             <Footer/>
+            <div style={{height:'20px'}}></div>
         </div>
     );
   }

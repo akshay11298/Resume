@@ -16,9 +16,9 @@ import './resume.css'
                                 <div className={'font-tarsus'}><strong>Professional <br/> Info</strong></div>
                             </div>
                             <div className={'col-md-9 font-tarsus align-self-center'} style={{paddingLeft:'1em', fontSize:'1.1em'}}>
-                                I'm a hard working student, who is currently in 6<sup>th</sup> semester. I am pursuing Computer Science. My current onjective is to gain an entry level position
-                                 to learn and to grow within an enterprise. I am extremely hard working and can manage to accomplish anything once I set my mind to it. I have experience in web
-                                development, application development (mobile as well as computer) and machine learning as well.
+                                I'm a passionate computer science student, studying in 6<sup>th</sup> semester. My objective is to gain an entry level position
+                                 to learn and grow within an enterprise. I am hard working and can manage to accomplish anything once I set my mind on it. I have experience in web
+                                development, application development (mobile as well as computer) and machine learning. I also like to explore new technology.
                             </div>
                         </div>
                         <hr style={{borderWidth:'3px'}}/>
@@ -29,9 +29,10 @@ import './resume.css'
                             <div className={'col-md-9 font-tarsus align-self-center'} style={{paddingLeft:'1em', fontSize:'1.1em'}} >
                                <strong>React Native Intern</strong><br/>
                                 <em>11 December 2017 - 22nd January 2018</em> <br/>
+                                <em>Dipper Technologies</em> <br/>
                                 <hr/>
                                 I interned as a React Native developer in the organisation. I worked on building cross platform applications using React Native.
-                                This was a great working experience and the technology was new to me so it provided me a good learning curve as well.
+                                 Since the technology was new to me, it provided me a great working and learning experience.
                                 We had two tasks at hand:
                                 <ul>
                                     <li> Shift one of the existing apps from Ionic Framework to React Native</li>

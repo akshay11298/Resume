@@ -12,13 +12,6 @@
     margin:10px;
 }
 
-.circle{
-    border-radius: 50%;
-    background-color: #61d0d4;
-    height: 100%;
-    width: 100%;
-}
-
 .icons{
      color: #61d0d4 !important;
  }

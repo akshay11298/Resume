@@ -47,13 +47,13 @@ export default class Content extends Component{
             <header>
                 <h1 className="font-tarsus" style={{fontSize:'4em'}}>Akshay Avinash</h1>
                 <div className="row" id={"head"}>
-                    <div className={"col-md-5"}>
+                    <div className={"col-md-5 col-sm-10"}>
                     <h2 className="font-tarsus" style={{fontSize:'1.7em',paddingTop:'3%'}}>Computer Science Engineer</h2>
                     </div>
-                <Navbar className={"col-md-7"} expand={"md"} light>
-                    <NavbarToggler className={"text-right"} onClick={()=>this.toggle()}/>
+                <Navbar className={"col-md-7 col-sm-2"} expand={"md"} light>
+                    <NavbarToggler className={"float-right"} onClick={()=>this.toggle()}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className={"ml-auto"} navbar>
+                        <Nav className={"ml-auto text-left"} navbar>
                             {this.state.menuItems.map((value,index)=>{
                                 if(index===this.state.content){
                                     return( <NavItem className='nav-link font-tarsus active-link' key={index} style={{fontSize:'1.5em'}} onClick={()=>this.getComponent(index)}>{value}</NavItem>);

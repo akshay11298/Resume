@@ -48,7 +48,6 @@ export class Footer extends Component {
               <div className={"row section"}>
                 <div className={"col-md-2 col-sm-2 heading"}>
                   <div className={"icons"}>
-                    {/*<Icon icon={mail4} size={'1.2em'}/>*/}
                     <span style={{ fontSize: "1.75em" }}>
                       <FaEnvelope />
                     </span>
@@ -71,7 +70,6 @@ export class Footer extends Component {
               <div className={"row section"}>
                 <div className={"col-md-2 col-sm-2 heading"}>
                   <div className={"icons"}>
-                    {/*<Icon icon={plus} size={'1.2em'}/>*/}
                     <span style={{ fontSize: "1.75em" }}>
                       <FaPlusSquare />
                     </span>
@@ -80,7 +78,7 @@ export class Footer extends Component {
                 <div className={"col-md-10 col-sm-10 content"}>
                   <strong>
                     Follow Me:<br />
-                    <div className={"row"}>
+                    <div className={"row"} style={{fontSize:'1.25em'}}>
                       <a
                         href="https://facebook.com/akshay11298"
                         rel="noopener noreferrer"

@@ -34,7 +34,7 @@ export class Home extends React.Component{
                     </div>
                     <div className={'font-tarsus'} style={{marginTop:'0.75em'}}>
                         I am an easy going and hard working person. I love new challenges and like to explore new tech and expand my domain.<br/>
-                        Currently, I'm in third year so I am looking for internsnhips.
+                        Currently in third year looking for internsnhips.
                     </div>
                 </div>
             </div>

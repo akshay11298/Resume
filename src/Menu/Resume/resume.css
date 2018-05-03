@@ -13,7 +13,7 @@
 .circle .font-tarsus{
     font-size: 1.5em;
     position:absolute;
-    top:4vw; left:2vw;
+    top:3.75vw; left:2.15vw;
     /*transform: translate(-5vw, -5vw);*/
     margin:0;
     color: white;
@@ -25,14 +25,22 @@
     padding-bottom: 50%;
 }
 
+.side-info{
+    padding-left: 20px;
+}
+
 @media only screen and (max-width: 768px) {
     .circle .font-tarsus{
         font-size: 1.5em;
         position:absolute;
-        top:7vw; left:6vw;
+        top:9vw; left:6vw;
         /*transform: translate(-5vw, -5vw);*/
         margin:0;
         color: white;
         margin-left: 5px;
+    }
+
+    .side-info{
+        padding-left: 0px;
     }
 }

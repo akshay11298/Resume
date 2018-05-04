@@ -11,7 +11,7 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                 <h1 className={"font-tarsus"}>RESUME</h1>
                 </header>
                 <div className={'row'}>
-                    <div className={'col-md-9 col-sm-12'}>
+                    <div className={'col-md-9 col-sm-12 col-xs-12'}>
                         <hr style={{borderWidth:'3px'}}/>
                         <div className={'row'}>
                             <div className={'circle col-md-3'} style={{backgroundColor:'#E83556'}}>
@@ -72,9 +72,9 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                             </div>
                         </div>
                     </div>
-                    <div className={'col-md-3 col-sm-12 side-info'}>
+                    <div className={'col-md-3 col-sm-12 col-xs-12 side-info'}>
                         <div className={'row'}>
-                            <div className={'col-md-12 col-sm-6 icons'}>
+                            <div className={'col-md-12 col-sm-6 col-xs-6 icons'}>
                                 <div className={'text-center'} style={{fontSize:'4em'}}>
                                     <FaExclamationCircle/>
                                 </div>
@@ -94,7 +94,7 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                                     </ul>
                                 </div>
                             </div>
-                            <div className={'col-md-12 col-sm-6 icons'}>
+                            <div className={'col-md-12 col-sm-6 col-xs-6 icons'}>
                                 <div className={'text-center'} style={{fontSize:'4em'}}>
                                     <IoAndroidGlobe/>
                                 </div>

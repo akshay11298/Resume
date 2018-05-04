@@ -47,10 +47,10 @@ export default class Content extends Component{
             <header>
                 <h1 className="font-tarsus" style={{fontSize:'4em'}}>Akshay Avinash</h1>
                 <div className="row" id={"head"}>
-                    <div className={"col-md-5 col-sm-10"}>
+                    <div className={"col-md-5 col-sm-10  col-xs-10"}>
                     <h2 className="font-tarsus" style={{fontSize:'1.7em',paddingTop:'3%'}}>Computer Science Engineer</h2>
                     </div>
-                <Navbar className={"col-md-7 col-sm-2"} expand={"md"} light>
+                <Navbar className={"col-md-7 col-sm-2  col-xs-2"} expand={"md"} light>
                     <NavbarToggler className={"float-right"} onClick={()=>this.toggle()}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className={"ml-auto text-left"} navbar>

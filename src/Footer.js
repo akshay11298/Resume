@@ -28,7 +28,7 @@ export class Footer extends Component {
           >
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 heading"}>
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
                   <div className={"icons"}>
                     {/*<Icon icon={phone} size={'1.2em'}/>*/}
                     <span style={{ fontSize: "1.75em" }}>
@@ -36,7 +36,7 @@ export class Footer extends Component {
                     </span>
                   </div>
                 </div>
-                <div className={"col-md-10 col-sm-10 content"}>
+                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>
                     Call<br />
                     +91-9971110289
@@ -46,14 +46,14 @@ export class Footer extends Component {
             </div>
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 heading"}>
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
                   <div className={"icons"}>
                     <span style={{ fontSize: "1.75em" }}>
                       <FaEnvelope />
                     </span>
                   </div>
                 </div>
-                <div className={"col-md-10 col-sm-10 content"}>
+                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>
                     Contact<br />
                     <a
@@ -68,14 +68,14 @@ export class Footer extends Component {
             </div>
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 heading"}>
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
                   <div className={"icons"}>
                     <span style={{ fontSize: "1.75em" }}>
                       <FaPlusSquare />
                     </span>
                   </div>
                 </div>
-                <div className={"col-md-10 col-sm-10 content"}>
+                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>
                     Follow Me:<br />
                     <div className={"row"} style={{fontSize:'1.25em'}}>

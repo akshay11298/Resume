@@ -1,7 +1,18 @@
 {
-  "main.css": "static/css/main.9bf3a7f8.css",
-  "main.css.map": "static/css/main.9bf3a7f8.css.map",
-  "main.js": "static/js/main.967df5f1.js",
-  "main.js.map": "static/js/main.967df5f1.js.map",
-  "static/media/me.jpg": "static/media/me.9dda2652.jpg"
+  "main.css": "static/css/main.0edc6996.css",
+  "main.css.map": "static/css/main.0edc6996.css.map",
+  "main.js": "static/js/main.185aba07.js",
+  "main.js.map": "static/js/main.185aba07.js.map",
+  "static/media/Advanced settings.gif": "static/media/Advanced settings.76874558.gif",
+  "static/media/Receive mails.jpg": "static/media/Receive mails.9d72c3a4.jpg",
+  "static/media/Sign In animation.gif": "static/media/Sign In animation.4f79c878.gif",
+  "static/media/caterer.gif": "static/media/caterer.ecbcc762.gif",
+  "static/media/employee.gif": "static/media/employee.1d717ac9.gif",
+  "static/media/home.jpg": "static/media/home.4ad5da77.jpg",
+  "static/media/index.jpeg": "static/media/index.d0f28a76.jpeg",
+  "static/media/login.jpg": "static/media/login.2e410cb9.jpg",
+  "static/media/me.jpg": "static/media/me.9dda2652.jpg",
+  "static/media/notification.gif": "static/media/notification.8448a79f.gif",
+  "static/media/search.jpg": "static/media/search.1757d5cc.jpg",
+  "static/media/send.jpg": "static/media/send.fc4afa82.jpg"
 }

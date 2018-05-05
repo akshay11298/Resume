@@ -84,7 +84,7 @@ export class Footer extends Component {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <FaFacebook style={{ color: "#3b5998" }} />
+                        <FaFacebook style={{ color: "white" }} />
                       </a>
                       <a
                         href="https://github.com/akshay11298"
@@ -93,7 +93,7 @@ export class Footer extends Component {
                       >
                         <FaGithubSquare
                           style={{
-                            color: "#303030",
+                            color: "white",
                             marginLeft: "5px",
                             marginRight: "5px"
                           }}
@@ -104,7 +104,7 @@ export class Footer extends Component {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <FaLinkedin style={{ color: "#337ab7" }} />
+                        <FaLinkedin style={{ color: "white" }} />
                       </a>
                     </div>
                   </strong>

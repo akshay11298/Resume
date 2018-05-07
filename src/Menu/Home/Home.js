@@ -22,13 +22,13 @@ export class Home extends React.Component{
                         <h2 style={{fontSize:'3.5em'}}>a bit about me:</h2>
                     </div>
                     <div className={'row'}>
-                        <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'#E83556'}} onClick={()=>this.handleContentChange(1)}>
+                        <button type={'button'} className={'btn about-me about-me-animatable font-tarsus'} style={{backgroundColor:'#E83556'}} onClick={()=>this.handleContentChange(1)}>
                             <h5>Resume</h5>
                         </button>
-                        <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'#61d0d4'}} onClick={()=>this.handleContentChange(2)}>
+                        <button type={'button'} className={'btn about-me font-tarsus about-me-animatable'} style={{backgroundColor:'#61d0d4'}} onClick={()=>this.handleContentChange(2)}>
                             <h5>Projects</h5>
                         </button>
-                        <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'#D1C926'}} onClick={()=>this.handleContentChange(3)}>
+                        <button type={'button'} className={'btn about-me font-tarsus about-me-animatable '} style={{backgroundColor:'#D1C926'}} onClick={()=>this.handleContentChange(3)}>
                             <h5>Contact Me</h5>
                         </button>
                     </div>

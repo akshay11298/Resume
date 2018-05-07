@@ -11,7 +11,7 @@
     margin: 4px 2px;
 }
 
-.about-me:hover{
+.about-me-animatable:hover{
     animation-name: overlays;
     animation-duration: 500ms;
     animation-fill-mode: forwards;

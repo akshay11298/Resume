@@ -14,10 +14,10 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                     <div className={'col-md-9 col-sm-12 col-xs-12'}>
                         <hr style={{borderWidth:'3px'}}/>
                         <div className={'row'}>
-                            <div className={'circle col-md-3'} style={{backgroundColor:'#E83556'}}>
-                                <div className={'font-tarsus'}><strong>Professional <br/> Info</strong></div>
-                            </div>
-                            <div className={'col-md-9 font-tarsus align-self-center'} style={{paddingLeft:'1em', fontSize:'1.1em'}}>
+                            <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'#E83556',opacity:'1'}} disabled={'disabled'} >
+                                <h5>Professional <br/> Info</h5>
+                            </button>
+                            <div className={'col-md-9 font-tarsus align-self-center text-justify'} style={{paddingLeft:'1em', fontSize:'1.1em'}}>
                                 I'm a passionate computer science student, studying in 6<sup>th</sup> semester. My objective is to gain an entry level position
                                  to learn and grow within an enterprise. I am hard working and can manage to accomplish anything once I set my mind on it. I have experience in web
                                 development, application development (mobile as well as computer) and machine learning. I also like to explore new technology.
@@ -25,10 +25,10 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                         </div>
                         <hr style={{borderWidth:'3px'}}/>
                         <div className={'row'}>
-                            <div className={'circle col-md-3'} style={{backgroundColor:'orange'}}>
-                                <div className={'font-tarsus'}><strong>Work <br/>Experience</strong></div>
-                            </div>
-                            <div className={'col-md-9 font-tarsus align-self-center'} style={{paddingLeft:'1em', fontSize:'1.1em'}} >
+                            <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'orange',opacity:'1'}} disabled={'disabled'}>
+                                <h5>Work <br/> Experience</h5>
+                            </button>
+                            <div className={'col-md-9 font-tarsus align-self-center text-justify'} style={{paddingLeft:'1em', fontSize:'1.1em'}} >
                                <strong>React Native Intern</strong><br/>
                                 <em>11 December 2017 - 22 January 2018</em> <br/>
                                 <em>Dipper Technologies</em> <br/>
@@ -57,10 +57,10 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
                         </div>
                         <hr style={{borderWidth:'3px'}}/>
                         <div className={'row'}>
-                            <div className={'circle col-md-3'} style={{backgroundColor:'#E83556'}}>
-                                <div className={'font-tarsus'}><strong>Educational <br/> Info</strong></div>
-                            </div>
-                            <div className={'col-md-9 font-tarsus align-self-center'} style={{paddingLeft:'1em', fontSize:'1.1em'}}>
+                            <button type={'button'} className={'btn about-me font-tarsus'} style={{backgroundColor:'#E83556',opacity:'1'}} disabled={'disabled'} >
+                                <h5>Educational <br/> Info</h5>
+                            </button>
+                            <div className={'col-md-9 font-tarsus align-self-center text-justify'} style={{paddingLeft:'1em', fontSize:'1.1em'}}>
                                 <strong>SRM Institute of Science and Technology</strong><br/>
                                 <em>2015 - 2019 (Anticipated)</em> <br/>
                                 <em>B. Tech </em> <br/>

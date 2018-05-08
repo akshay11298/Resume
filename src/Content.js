@@ -42,15 +42,14 @@ export default class Content extends Component {
 
   render() {
     return (
-      <div>
+      <div className="font-tarsus">
         <header>
-          <h1 className="font-tarsus" style={{ fontSize: '4em' }}>
+          <h1 style={{ fontSize: '4em' }}>
             Akshay Avinash
           </h1>
           <div className="row" id={'head'}>
             <div className={'col-md-5 col-sm-10  col-xs-10'}>
               <h2
-                className="font-tarsus"
                 style={{ fontSize: '1.7em', paddingTop: '3%' }}
               >
                 Computer Science Engineer
@@ -71,7 +70,7 @@ export default class Content extends Component {
                     if (index === this.state.content) {
                       return (
                         <NavItem
-                          className="nav-link font-tarsus active-link"
+                          className="nav-link active-link"
                           key={index}
                           style={{ fontSize: '1.5em' }}
                           onClick={() => this.getComponent(index)}
@@ -82,7 +81,7 @@ export default class Content extends Component {
                     }
                     return (
                       <NavItem
-                        className="nav-link font-tarsus"
+                        className="nav-link"
                         key={index}
                         style={{ fontSize: '1.5em' }}
                         onClick={() => this.getComponent(index)}

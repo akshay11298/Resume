@@ -18,9 +18,9 @@ export class Projects extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={'font-tarsus'}>
         <header>
-          <h1 className={'font-tarsus'}>Projects</h1>
+          <h1>Projects</h1>
         </header>
         <hr style={{ borderWidth: '3px' }} />
         <div className={'row'}>
@@ -28,7 +28,7 @@ export class Projects extends React.Component {
             <SlideShow items={[Nora]} />
           </div>
           <div
-            className={'col-md-6 col-sm-12 col-xs-12 font-tarsus text-justify'}
+            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
           >
             <h2>Project 1</h2>
             <hr />
@@ -52,7 +52,7 @@ export class Projects extends React.Component {
             <SlideShow items={[NBCC1, NBCC2, NBCC3]} />
           </div>
           <div
-            className={'col-md-6 col-sm-12 col-xs-12 font-tarsus text-justify'}
+            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
           >
             <h2>Project 2</h2>
             <hr />
@@ -71,7 +71,7 @@ export class Projects extends React.Component {
             <SlideShow items={[SignIn, Advance, send, Receive]} />
           </div>
           <div
-            className={'col-md-6 col-sm-12 col-xs-12 font-tarsus text-justify'}
+            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
           >
             <h2>Project 3</h2>
             <hr />
@@ -89,7 +89,7 @@ export class Projects extends React.Component {
             <SlideShow items={[home, search]} />
           </div>
           <div
-            className={'col-md-6 col-sm-12 col-xs-12 font-tarsus text-justify'}
+            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
           >
             <h2>Project 4</h2>
             <hr />
@@ -99,6 +99,9 @@ export class Projects extends React.Component {
             managemnt system which allows the warden to enroll a student, modify
             its details and remove a student's entry.
           </div>
+        </div>
+        <div>
+
         </div>
       </div>
     );

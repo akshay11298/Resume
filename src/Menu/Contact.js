@@ -14,14 +14,15 @@ export class Contact extends React.Component {
         </header>
         <hr style={{ borderWidth: '3px' }} />
         <div className={'row'}>
-          <div className={'col-md-4 align-self-center text-justify'}>
+          <div className={'col-md-4 align-self-center text-justify message'}>
             Hi!<br />
             Thank you for dropping by. If I have any skills that you require,
             kindly let me know.
+            <br />
           </div>
           <div className={'col-md-6'}>
-            <h3>Drop a message</h3>
             <br />
+            <h3 className={'text-center'}>Drop a message</h3>
             <br />
             <Form
               action={'https://formspree.io/akshay.avinash@gmail.com'}
@@ -74,6 +75,7 @@ export class Contact extends React.Component {
             </Form>
           </div>
         </div>
+        <div height="200px" />
       </div>
     );
   }

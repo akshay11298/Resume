@@ -13,24 +13,24 @@ export class Home extends React.Component {
 
   render() {
     return (
-      <div className={'row d-flex flex-solumn'} style={{ marginTop: '2em' }}>
+      <div className={'row d-flex font-tarsus'} style={{ marginTop: '2em' }}>
         <div className={'col-md-5'}>
           <img src={img} alt={'Me'} className={'img-fluid rounded-circle'} />
         </div>
         <div className={'col-md-2'} />
         <div className={'col-md-5 home-content'}>
-          <div className={'font-tarsus'}>
+          <div>
             <strong>
               <h1 style={{ fontSize: '5em' }}>Hello,</h1>
             </strong>
           </div>
-          <div className={'font-tarsus'}>
+          <div>
             <h2 style={{ fontSize: '3.5em' }}>a bit about me:</h2>
           </div>
           <div className={'row'}>
             <button
               type={'button'}
-              className={'btn about-me about-me-animatable font-tarsus'}
+              className={'btn about-me about-me-animatable'}
               style={{ backgroundColor: '#E83556' }}
               onClick={() => this.handleContentChange(1)}
             >
@@ -38,7 +38,7 @@ export class Home extends React.Component {
             </button>
             <button
               type={'button'}
-              className={'btn about-me font-tarsus about-me-animatable'}
+              className={'btn about-me about-me-animatable'}
               style={{ backgroundColor: '#61d0d4' }}
               onClick={() => this.handleContentChange(2)}
             >
@@ -46,14 +46,14 @@ export class Home extends React.Component {
             </button>
             <button
               type={'button'}
-              className={'btn about-me font-tarsus about-me-animatable '}
+              className={'btn about-me about-me-animatable '}
               style={{ backgroundColor: '#D1C926' }}
               onClick={() => this.handleContentChange(3)}
             >
               <h5>Contact Me</h5>
             </button>
           </div>
-          <div className={'font-tarsus'} style={{ marginTop: '0.75em' }}>
+          <div style={{ marginTop: '0.75em' }}>
             I am an easy going and hard working person. I love new challenges
             and like to explore new tech and expand my domain.<br />
             Currently in third year looking for internsnhips.

@@ -40,6 +40,7 @@ export class Contact extends React.Component {
                     <Input type={'textarea'} name={'message'} placeholder={'Enter your message'}/>
                     </Col>
                 </FormGroup>
+                <input type="hidden" name="_next" value="https://akshay11298.github.io/Resume/" />
                 <div className={'text-center'}>
                 <Button> Submit </Button>
                 </div>

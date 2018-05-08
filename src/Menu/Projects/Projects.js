@@ -16,6 +16,10 @@ export class Projects extends React.Component {
     window.scrollTo(0, 0);
   }
 
+    handleContentChange = index => {
+        this.props.onContentChange(index);
+    };
+
   render() {
     return (
       <div className={'font-tarsus'}>
@@ -27,9 +31,7 @@ export class Projects extends React.Component {
           <div className={'col-md-6 col-sm-12 col-xs-12'}>
             <SlideShow items={[Nora]} />
           </div>
-          <div
-            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
-          >
+          <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
             <h2>Project 1</h2>
             <hr />
             <h3>Nora</h3>
@@ -51,9 +53,7 @@ export class Projects extends React.Component {
           <div className={'col-md-6 col-sm-12 col-xs-12'}>
             <SlideShow items={[NBCC1, NBCC2, NBCC3]} />
           </div>
-          <div
-            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
-          >
+          <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
             <h2>Project 2</h2>
             <hr />
             <h3>Canteen Management System</h3>
@@ -70,9 +70,7 @@ export class Projects extends React.Component {
           <div className={'col-md-6 col-sm-12 col-xs-12'}>
             <SlideShow items={[SignIn, Advance, send, Receive]} />
           </div>
-          <div
-            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
-          >
+          <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
             <h2>Project 3</h2>
             <hr />
             <h3>Mail User Agent</h3>
@@ -88,9 +86,7 @@ export class Projects extends React.Component {
           <div className={'col-md-6 col-sm-12 col-xs-12'}>
             <SlideShow items={[home, search]} />
           </div>
-          <div
-            className={'col-md-6 col-sm-12 col-xs-12 text-justify'}
-          >
+          <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
             <h2>Project 4</h2>
             <hr />
             <h3>Hostel Management System</h3>
@@ -100,8 +96,19 @@ export class Projects extends React.Component {
             its details and remove a student's entry.
           </div>
         </div>
-        <div>
-
+        <hr style={{ borderWidth: '3px' }} />
+        <div className={'row'}>
+          <div className={'col-md-6 text-left'}>
+            <h5>If you'd like to know more, feel free to contact me</h5>
+          </div>
+          <div className={'col-md-6 text-right'}>
+            <h4
+              onClick={()=>this.handleContentChange(3)}
+              className={'contact-me-link'}
+            >
+              Contact me <strong style={{ fontSize: '1.2em' }}>→</strong>
+            </h4>
+          </div>
         </div>
       </div>
     );

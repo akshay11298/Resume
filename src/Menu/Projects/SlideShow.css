@@ -2,3 +2,9 @@
     width: inherit;
     height: inherit;
 }
+
+.contact-me-link:hover{
+    color: #337ab7;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,61 +1,63 @@
 .Footer {
-    width: 100% !important;
-    padding: 20px;
-    bottom: 5% !important;
-    left: 0;
-    position: relative;
-    background-color: #E83556;
-    height: inherit;
-    padding-right: 15%;
-    padding-left: 15%;
+  width: 100% !important;
+  padding: 20px;
+  bottom: 5% !important;
+  left: 0;
+  position: relative;
+  background-color: #e83556;
+  height: inherit;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
-.section{
-    padding-right:auto;
-    padding-left: auto;
+.section {
+  padding-right: auto;
+  padding-left: auto;
+  width: auto;
 }
 
-.icons{
-     color: #61d0d4 !important;
- }
-
-.content{
-    color: white !important;
-    text-decoration: none !important;
+.icons {
+  color: #61d0d4 !important;
+  width: auto;
 }
 
-.row{
-    margin-left: 0 !important;
+.content {
+  color: white !important;
+  text-decoration: none !important;
 }
 
-.fa-facebook-official{
-    color: #3b5998;
+.row {
+  margin-left: 0 !important;
 }
 
-.fa-linkedin-square{
-    color: #337ab7;
+.fa-facebook-official {
+  color: #3b5998;
 }
 
-.fa-github-square{
-    color: #303030;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.fa{
-    font-size: 2em;
-    background-color: white;
+.fa-linkedin-square {
+  color: #337ab7;
 }
 
-a{
-    color: white;
+.fa-github-square {
+  color: #303030;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fa {
+  font-size: 2em;
+  background-color: white;
 }
 
-@media only screen and (max-width: 768px){
-    .Footer{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .section{
-        margin-bottom: 15px;
-    }
+a {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .Footer {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .section {
+    margin-bottom: 15px;
+  }
 }

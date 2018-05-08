@@ -44,14 +44,10 @@ export default class Content extends Component {
     return (
       <div className="font-tarsus">
         <header>
-          <h1 style={{ fontSize: '4em' }}>
-            Akshay Avinash
-          </h1>
+          <h1 style={{ fontSize: '4em' }}>Akshay Avinash</h1>
           <div className="row" id={'head'}>
             <div className={'col-md-5 col-sm-10  col-xs-10'}>
-              <h2
-                style={{ fontSize: '1.7em', paddingTop: '3%' }}
-              >
+              <h2 style={{ fontSize: '1.7em', paddingTop: '3%' }}>
                 Computer Science Engineer
               </h2>
             </div>
@@ -102,7 +98,12 @@ export default class Content extends Component {
           />
         )}
         {this.state.content === 1 && <Resume current={this.state.content} />}
-        {this.state.content === 2 && <Projects current={this.state.content} />}
+        {this.state.content === 2 && (
+          <Projects
+            current={this.state.content}
+            onContentChange={this.contentChange}
+          />
+        )}
         {this.state.content === 3 && <Contact current={this.state.content} />}
       </div>
     );

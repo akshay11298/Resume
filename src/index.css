@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: #eae5e5;
-  padding-bottom: 20%;
+  padding-bottom: 20px;
   /*position: relative;*/
   overflow-x: hidden;
 }

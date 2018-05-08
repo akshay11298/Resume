@@ -10,7 +10,7 @@
     animation-name: link-color-change;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .active-link{

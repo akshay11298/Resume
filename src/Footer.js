@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import "./Footer.css";
+import React, { Component } from 'react';
+import './Footer.css';
 import {
   FaPhone,
   FaEnvelope,
   FaPlusSquare,
   FaFacebook,
   FaGithubSquare,
-  FaLinkedin
-} from "react-icons/lib/fa";
+  FaLinkedin,
+} from 'react-icons/lib/fa';
 
 const phantomStyle = {
-  display: "block",
-  padding: "20px",
-  height: "60px",
-  width: "100%"
+  display: 'block',
+  padding: '20px',
+  height: '60px',
+  width: '100%',
 };
 
 export class Footer extends Component {
@@ -23,17 +23,17 @@ export class Footer extends Component {
         <div style={phantomStyle} />
         <div className="Footer">
           <div
-            className={"row"}
+            className={'row'}
             // style={{paddingLeft:'20%',paddingRight:'20%'}}
           >
-            <div className={"col-md-4"}>
-              <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
-                    <span style={{ fontSize: "1.75em" }}>
-                      <FaPhone />
-                    </span>
+            <div className={'col-md-4'}>
+              <div className={'row section'}>
+                <div className={'col-md-2 col-sm-2 col-xs-2 heading icons'}>
+                  <span style={{ fontSize: '1.75em' }}>
+                    <FaPhone />
+                  </span>
                 </div>
-                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
+                <div className={'col-md-10 col-sm-10 col-xs-10 content'}>
                   <strong>
                     Call<br />
                     +91-9971110289
@@ -41,19 +41,19 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className={"col-md-4"}>
-              <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
-                    <span style={{ fontSize: "1.75em" }}>
-                      <FaEnvelope />
-                    </span>
+            <div className={'col-md-4'}>
+              <div className={'row section'}>
+                <div className={'col-md-2 col-sm-2 col-xs-2 heading icons'}>
+                  <span style={{ fontSize: '1.75em' }}>
+                    <FaEnvelope />
+                  </span>
                 </div>
-                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
+                <div className={'col-md-10 col-sm-10 col-xs-10 content'}>
                   <strong>
                     Contact<br />
                     <a
-                      href={"mailto:akshay.avinash@gmail.com"}
-                      style={{ color: "white" }}
+                      href={'mailto:akshay.avinash@gmail.com'}
+                      style={{ color: 'white' }}
                     >
                       akshay.avinash@gmail.com
                     </a>
@@ -61,23 +61,23 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className={"col-md-4"}>
-              <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
-                    <span style={{ fontSize: "1.75em" }}>
-                      <FaPlusSquare />
-                    </span>
+            <div className={'col-md-4'}>
+              <div className={'row section'}>
+                <div className={'col-md-2 col-sm-2 col-xs-2 heading icons'}>
+                  <span style={{ fontSize: '1.75em' }}>
+                    <FaPlusSquare />
+                  </span>
                 </div>
-                <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
+                <div className={'col-md-10 col-sm-10 col-xs-10 content'}>
                   <strong>
                     Follow Me:<br />
-                    <div className={"row"} style={{fontSize:'1.25em'}}>
+                    <div className={'row'} style={{ fontSize: '1.25em' }}>
                       <a
                         href="https://facebook.com/akshay11298"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <FaFacebook style={{ color: "white" }} />
+                        <FaFacebook style={{ color: 'white' }} />
                       </a>
                       <a
                         href="https://github.com/akshay11298"
@@ -86,9 +86,9 @@ export class Footer extends Component {
                       >
                         <FaGithubSquare
                           style={{
-                            color: "white",
-                            marginLeft: "5px",
-                            marginRight: "5px"
+                            color: 'white',
+                            marginLeft: '5px',
+                            marginRight: '5px',
                           }}
                         />
                       </a>
@@ -97,7 +97,7 @@ export class Footer extends Component {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <FaLinkedin style={{ color: "white" }} />
+                        <FaLinkedin style={{ color: 'white' }} />
                       </a>
                     </div>
                   </strong>

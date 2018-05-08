@@ -52,9 +52,9 @@ export default class SlideShow extends React.Component {
     const { activeIndex } = this.state;
     const slides = this.state.items.map((item, index) => {
       return (
-          <CarouselItem onExiting={this.onExiting} onExited={this.onExited}>
-            <img src={item} alt={index} className={'carousel-image'} />
-          </CarouselItem>
+        <CarouselItem onExiting={this.onExiting} onExited={this.onExited}>
+          <img src={item} alt={index} className={'carousel-image'} />
+        </CarouselItem>
       );
     });
     return (

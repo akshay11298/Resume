@@ -27,3 +27,9 @@
 #head{
     margin-left: -15px!important;
 }
+
+.toggler{
+    top: 5px !important;
+    right: 5px !important;
+    z-index: 1;
+}

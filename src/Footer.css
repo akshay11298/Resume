@@ -6,10 +6,13 @@
     position: relative;
     background-color: #E83556;
     height: inherit;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .section{
-    margin:10px;
+    padding-right:auto;
+    padding-left: auto;
 }
 
 .icons{
@@ -19,9 +22,7 @@
 .content{
     color: white !important;
     text-decoration: none !important;
-    float: left !important;
 }
-
 
 .row{
     margin-left: 0 !important;
@@ -47,4 +48,14 @@
 
 a{
     color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .Footer{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .section{
+        margin-bottom: 15px;
+    }
 }

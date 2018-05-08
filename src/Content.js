@@ -51,7 +51,7 @@ export default class Content extends Component{
                     <h2 className="font-tarsus" style={{fontSize:'1.7em',paddingTop:'3%'}}>Computer Science Engineer</h2>
                     </div>
                 <Navbar className={"col-md-7 col-sm-2  col-xs-2"} expand={"md"} light>
-                    <NavbarToggler className={"float-right"} onClick={()=>this.toggle()}/>
+                    <NavbarToggler className={"toggler"} onClick={()=>this.toggle()}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className={"ml-auto text-left"} navbar>
                             {this.state.menuItems.map((value,index)=>{

@@ -24,17 +24,14 @@ export class Footer extends Component {
         <div className="Footer">
           <div
             className={"row"}
-            style={{ paddingLeft: "20%", paddingRight: "20%" }}
+            // style={{paddingLeft:'20%',paddingRight:'20%'}}
           >
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
-                  <div className={"icons"}>
-                    {/*<Icon icon={phone} size={'1.2em'}/>*/}
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
                     <span style={{ fontSize: "1.75em" }}>
                       <FaPhone />
                     </span>
-                  </div>
                 </div>
                 <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>
@@ -46,12 +43,10 @@ export class Footer extends Component {
             </div>
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
-                  <div className={"icons"}>
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
                     <span style={{ fontSize: "1.75em" }}>
                       <FaEnvelope />
                     </span>
-                  </div>
                 </div>
                 <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>
@@ -68,12 +63,10 @@ export class Footer extends Component {
             </div>
             <div className={"col-md-4"}>
               <div className={"row section"}>
-                <div className={"col-md-2 col-sm-2 col-xs-2 heading"}>
-                  <div className={"icons"}>
+                <div className={"col-md-2 col-sm-2 col-xs-2 heading icons"}>
                     <span style={{ fontSize: "1.75em" }}>
                       <FaPlusSquare />
                     </span>
-                  </div>
                 </div>
                 <div className={"col-md-10 col-sm-10 col-xs-10 content"}>
                   <strong>

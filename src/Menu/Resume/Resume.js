@@ -8,7 +8,7 @@ import {IoAndroidGlobe} from 'react-icons/lib/io'
         return(
             <div>
                 <header>
-                <h1 className={"font-tarsus"}>RESUME</h1>
+                <h1 className={"font-tarsus"}>Resume</h1>
                 </header>
                 <div className={'row'}>
                     <div className={'col-md-9 col-sm-12 col-xs-12'}>

@@ -93,18 +93,16 @@ export default class Content extends Component {
         </header>
         {this.state.content === 0 && (
           <Home
-            current={this.state.content}
             onContentChange={this.contentChange}
           />
         )}
-        {this.state.content === 1 && <Resume current={this.state.content} />}
+        {this.state.content === 1 && <Resume onContentChange={this.contentChange} />}
         {this.state.content === 2 && (
           <Projects
-            current={this.state.content}
             onContentChange={this.contentChange}
           />
         )}
-        {this.state.content === 3 && <Contact current={this.state.content} />}
+        {this.state.content === 3 && <Contact onContentChange={this.contentChange} />}
       </div>
     );
   }

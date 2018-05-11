@@ -16,9 +16,9 @@ export class Projects extends React.Component {
     window.scrollTo(0, 0);
   }
 
-    handleContentChange = index => {
-        this.props.onContentChange(index);
-    };
+  handleContentChange = index => {
+      this.props.onContentChange(index);
+  };
 
   render() {
     return (
@@ -32,7 +32,16 @@ export class Projects extends React.Component {
             <SlideShow items={[Nora]} />
           </div>
           <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
-            <h2>Project 1</h2>
+              <button
+                  type={'button'}
+                  className={'btn about-me font-tarsus'}
+                  style={{ opacity: '1', backgroundColor:'#61d0d4' }}
+                  disabled={'disabled'}
+              >
+                  <h5>
+                      Project | 1
+                  </h5>
+              </button>
             <hr />
             <h3>Nora</h3>
             <br />
@@ -54,7 +63,16 @@ export class Projects extends React.Component {
             <SlideShow items={[NBCC1, NBCC2, NBCC3]} />
           </div>
           <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
-            <h2>Project 2</h2>
+              <button
+                  type={'button'}
+                  className={'btn about-me font-tarsus'}
+                  style={{ opacity: '1' , backgroundColor:'#61d0d4'}}
+                  disabled={'disabled'}
+              >
+                  <h5>
+                      Project | 2
+                  </h5>
+              </button>
             <hr />
             <h3>Canteen Management System</h3>
             <br />
@@ -71,10 +89,19 @@ export class Projects extends React.Component {
             <SlideShow items={[SignIn, Advance, send, Receive]} />
           </div>
           <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
-            <h2>Project 3</h2>
+              <button
+                  type={'button'}
+                  className={'btn about-me font-tarsus'}
+                  style={{ opacity: '1' , backgroundColor:'#61d0d4' }}
+                  disabled={'disabled'}
+              >
+                  <h5>
+                      Project | 3
+                  </h5>
+              </button>
             <hr />
             <h3>Mail User Agent</h3>
-            <br />
+            <br />icons
             This is another application I built using JavaFx. Its a mailing
             agent software, which allows a user to send and receive mails. This
             application is not mail server dependent. It works for all available
@@ -87,7 +114,16 @@ export class Projects extends React.Component {
             <SlideShow items={[home, search]} />
           </div>
           <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
-            <h2>Project 4</h2>
+              <button
+                  type={'button'}
+                  className={'btn about-me font-tarsus'}
+                  style={{ opacity: '1' , backgroundColor:'#61d0d4' }}
+                  disabled={'disabled'}
+              >
+                  <h5>
+                      Project | 4
+                  </h5>
+              </button>
             <hr />
             <h3>Hostel Management System</h3>
             <br />
@@ -104,7 +140,7 @@ export class Projects extends React.Component {
           <div className={'col-md-6 text-right'}>
             <h4
               onClick={()=>this.handleContentChange(3)}
-              className={'contact-me-link'}
+              className={'navigation-link'}
             >
               Contact me <strong style={{ fontSize: '1.2em' }}>→</strong>
             </h4>

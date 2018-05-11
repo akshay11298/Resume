@@ -8,6 +8,10 @@ export class Resume extends React.Component {
     window.scrollTo(0, 0);
   }
 
+  handleContentChange=(index)=>{
+    this.props.onContentChange(index);
+  };
+
   render() {
     return (
       <div>
@@ -34,7 +38,7 @@ export class Resume extends React.Component {
                 }
                 style={{ paddingLeft: '1em', fontSize: '1.1em' }}
               >
-                I'm a passionate computer science student, studying in 6<sup>
+                I'm a passionate computer science student, studying in the 6<sup>
                   th
                 </sup>{' '}
                 semester. My objective is to gain an entry level position to
@@ -148,9 +152,8 @@ export class Resume extends React.Component {
                   <hr />
                   <ul>
                     <li> Blockchain</li>
-                    <li> React Native</li>
+                    <li> Web Development</li>
                     <li> Cloud</li>
-                    <li> ReactJS</li>
                     <li> Database Management</li>
                     <li> Networking</li>
                     <li> Machine Learning (Basic)</li>
@@ -171,12 +174,35 @@ export class Resume extends React.Component {
                     <li> Java</li>
                     <li> Python</li>
                     <li> JavaScript</li>
+                    <li> ReactJS</li>
+                    <li> React Native</li>
                     <li> HTML/CSS</li>
+                    <li> SQL</li>
+                    <li> PHP</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <hr style={{ borderWidth: '3px' }} />
+        <div className={'row'}>
+            <div className={'col-md-6 text-left'}>
+                <h4
+                    onClick={()=>this.handleContentChange(0)}
+                    className={'navigation-link'}
+                >
+                    <strong style={{ fontSize: '1.2em' }}>←</strong> Home
+                </h4>
+            </div>
+            <div className={'col-md-6 text-right'}>
+                <h4
+                    onClick={()=>this.handleContentChange(2)}
+                    className={'navigation-link'}
+                >
+                    Projects <strong style={{ fontSize: '1.2em' }}>→</strong>
+                </h4>
+            </div>
         </div>
       </div>
     );

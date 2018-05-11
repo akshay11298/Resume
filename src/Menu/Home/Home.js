@@ -17,8 +17,8 @@ export class Home extends React.Component {
         <div className={'col-md-5'}>
           <img src={img} alt={'Me'} className={'img-fluid rounded-circle'} />
         </div>
-        <div className={'col-md-2'} />
-        <div className={'col-md-5 home-content'}>
+        <div className={'col-md-1'} />
+        <div className={'col-md-6 home-content'}>
           <div>
             <strong>
               <h1 style={{ fontSize: '5em' }}>Hello,</h1>

@@ -1,10 +1,41 @@
 import React from 'react';
-import { Button, Form, Col, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, Col, FormGroup, Label, Input, FormFeedback } from 'reactstrap';
 
 export class Contact extends React.Component {
+  constructor(props){
+    super(props);
+    this.state={
+      name:'',
+      email:'',
+      emailValid:true,
+      nameValid:true,
+    };
+  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
+  handleInput=(event)=>{
+    const name=event.target.name;
+    const value=event.target.value;
+    // this.validate(name+'Valid');
+    this.setState({
+        [name]:value
+    })
+  };
+
+  handleContentChange = index => {
+      this.props.onContentChange(index);
+  };
+
+  validate=(type)=>{
+    let valid;
+    if(type==='emailValid')
+      valid= this.state.email.match(/^(([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5}))*$/);
+    else
+      valid= this.state.name.match(/^[A-Za-z]*$/);
+    this.setState({[type]:valid})
+  };
 
   render() {
     return (
@@ -37,7 +68,13 @@ export class Contact extends React.Component {
                     type={'text'}
                     name={'name'}
                     placeholder={'Enter your name'}
+                    value={this.state.name}
+                    onChange={(e)=>this.handleInput(e)}
+                    onBlur={()=>this.validate('nameValid')}
+                    valid={this.state.nameValid}
+                    invalid={!this.state.nameValid}
                   />
+                  {!this.state.nameValid && <FormFeedback>Is that really your name?</FormFeedback>}
                 </Col>
               </FormGroup>
               <FormGroup row>
@@ -49,7 +86,13 @@ export class Contact extends React.Component {
                     type={'email'}
                     name={'email'}
                     placeholder={'Enter your email ID'}
+                    value={this.state.email}
+                    onBlur={()=>this.validate('emailValid')}
+                    onChange={(e)=>this.handleInput(e)}
+                    valid={this.state.emailValid}
+                    invalid={!this.state.emailValid}
                   />
+                  {!this.state.emailValid && <FormFeedback>I don't think I can contact you back on that wrong email</FormFeedback>}
                 </Col>
               </FormGroup>
               <FormGroup row>
@@ -75,7 +118,15 @@ export class Contact extends React.Component {
             </Form>
           </div>
         </div>
-        <div height="200px" />
+        <hr style={{ borderWidth: '3px' }} />
+        <div className={'text-right'}>
+          <h4
+              onClick={()=>this.handleContentChange(0)}
+              className={'navigation-link'}
+          >
+              Home <strong style={{ fontSize: '1.2em' }}>→</strong>
+          </h4>
+        </div>
       </div>
     );
   }

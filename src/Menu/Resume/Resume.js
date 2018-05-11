@@ -5,7 +5,7 @@ import { IoAndroidGlobe } from 'react-icons/lib/io';
 
 export class Resume extends React.Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+      document.getElementsByTagName("header")[1].scrollIntoView();
   }
 
   handleContentChange=(index)=>{

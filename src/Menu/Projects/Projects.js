@@ -13,7 +13,7 @@ import Receive from '../../img/MUA/Receive mails.jpg';
 
 export class Projects extends React.Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    document.getElementsByTagName("header")[1].scrollIntoView();
   }
 
   handleContentChange = index => {

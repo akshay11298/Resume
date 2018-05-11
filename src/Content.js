@@ -55,8 +55,10 @@ export default class Content extends Component {
               className={'col-md-7 col-sm-2  col-xs-2'}
               expand={'md'}
               light
+              toggleable
             >
               <NavbarToggler
+                right
                 className={'toggler'}
                 onClick={() => this.toggle()}
               />

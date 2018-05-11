@@ -12,7 +12,7 @@ export class Contact extends React.Component {
     };
   }
   componentDidMount() {
-    window.scrollTo(0, 0);
+      document.getElementsByTagName("header")[1].scrollIntoView();
   }
 
   handleInput=(event)=>{
@@ -31,9 +31,9 @@ export class Contact extends React.Component {
   validate=(type)=>{
     let valid;
     if(type==='emailValid')
-      valid= this.state.email.match(/^(([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5}))*$/);
+      valid= this.state.email.match(/^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}))*$/);
     else
-      valid= this.state.name.match(/^[A-Za-z]*$/);
+      valid= this.state.name.match(/^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,\.'-]+$/u);
     this.setState({[type]:valid})
   };
 
@@ -71,7 +71,6 @@ export class Contact extends React.Component {
                     value={this.state.name}
                     onChange={(e)=>this.handleInput(e)}
                     onBlur={()=>this.validate('nameValid')}
-                    valid={this.state.nameValid}
                     invalid={!this.state.nameValid}
                   />
                   {!this.state.nameValid && <FormFeedback>Is that really your name?</FormFeedback>}
@@ -89,10 +88,9 @@ export class Contact extends React.Component {
                     value={this.state.email}
                     onBlur={()=>this.validate('emailValid')}
                     onChange={(e)=>this.handleInput(e)}
-                    valid={this.state.emailValid}
                     invalid={!this.state.emailValid}
                   />
-                  {!this.state.emailValid && <FormFeedback>I don't think I can contact you back on that wrong email</FormFeedback>}
+                    {!this.state.emailValid && <FormFeedback>{"I don't think I can get back to you with that wrong email"}</FormFeedback>}
                 </Col>
               </FormGroup>
               <FormGroup row>

@@ -90,7 +90,7 @@ export class Contact extends React.Component {
                     onChange={(e)=>this.handleInput(e)}
                     invalid={!this.state.emailValid}
                   />
-                    {!this.state.emailValid && <FormFeedback>{"I don't think I can get back to you with that wrong email"}</FormFeedback>}
+                    {!this.state.emailValid && <FormFeedback>{"I don't think I can get back to you with that email"}</FormFeedback>}
                 </Col>
               </FormGroup>
               <FormGroup row>

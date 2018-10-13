@@ -11,7 +11,7 @@
 
 }
 .circle .font-tarsus{
-    font-size: 1.5em;
+    font-size: 1em;
     position:absolute;
     /*top:3.75vw; left:2.15vw;*/
     /*transform: translate(-5vw, -5vw);*/
@@ -22,6 +22,14 @@
 
 .side-info{
     padding-left: 20px;
+}
+
+ul >li{
+    margin-left: 1em !important
+}
+
+a{
+    color: black ;
 }
 
 @media only screen and (max-width: 768px) {

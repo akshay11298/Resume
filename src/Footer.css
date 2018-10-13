@@ -48,10 +48,6 @@
   background-color: white;
 }
 
-a {
-  color: white;
-}
-
 @media only screen and (max-width: 768px) {
   .Footer {
     padding-left: 2%;

@@ -10,6 +10,9 @@ import Advance from '../../img/MUA/Advanced settings.gif';
 import SignIn from '../../img/MUA/Sign In animation.gif';
 import send from '../../img/MUA/send.jpg';
 import Receive from '../../img/MUA/Receive mails.jpg';
+import MusicX from '../../img/MusicX/musicx.png';
+import DidYouMean from '../../img/MusicX/musicx1.png';
+import MusicXDesktop from '../../img/MusicX/musicx2.png';
 
 export class Projects extends React.Component {
   componentDidMount() {
@@ -60,7 +63,7 @@ export class Projects extends React.Component {
         <hr style={{ borderWidth: '3px' }} />
         <div className={'row'}>
           <div className={'col-md-6 col-sm-12 col-xs-12'}>
-            <SlideShow items={[NBCC1, NBCC2, NBCC3]} />
+            <SlideShow items={[MusicX, DidYouMean, MusicXDesktop]} />
           </div>
           <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
               <button
@@ -71,6 +74,32 @@ export class Projects extends React.Component {
               >
                   <h5>
                       Project | 2
+                  </h5>
+              </button>
+            <hr />
+            <h3>MusicX</h3>
+            <br />
+            This project is a music search engine. It requires the user to login through Facebook for age validation 
+            and to censor content. This app searches through the iTunes library and displays the result. The user can play
+            and download the content. As it is just a project and the songs are not licenced, only samples of the songs are available
+            and not the complete song itself. <br></br>
+            <a href="https://musicx.azurewebsites.net" target="_blank" rel="noopener noreferrer"> MusicX- Website Link</a>
+          </div>
+        </div>
+        <hr style={{ borderWidth: '3px' }} />
+        <div className={'row'}>
+          <div className={'col-md-6 col-sm-12 col-xs-12'}>
+            <SlideShow items={[NBCC1, NBCC2, NBCC3]} />
+          </div>
+          <div className={'col-md-6 col-sm-12 col-xs-12 text-justify'}>
+              <button
+                  type={'button'}
+                  className={'btn about-me font-tarsus'}
+                  style={{ opacity: '1' , backgroundColor:'#61d0d4'}}
+                  disabled={'disabled'}
+              >
+                  <h5>
+                      Project | 3
                   </h5>
               </button>
             <hr />
@@ -96,7 +125,7 @@ export class Projects extends React.Component {
                   disabled={'disabled'}
               >
                   <h5>
-                      Project | 3
+                      Project | 4
                   </h5>
               </button>
             <hr />
@@ -121,7 +150,7 @@ export class Projects extends React.Component {
                   disabled={'disabled'}
               >
                   <h5>
-                      Project | 4
+                      Project | 5
                   </h5>
               </button>
             <hr />

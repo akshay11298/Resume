@@ -38,7 +38,7 @@ export class Resume extends React.Component {
                 }
                 style={{ paddingLeft: '1em', fontSize: '1.1em' }}
               >
-                I'm a passionate computer science student, studying in the 6<sup>
+                I'm a passionate computer science student, studying in the 7<sup>
                   th
                 </sup>{' '}
                 semester. My objective is to gain an entry level position to
@@ -81,12 +81,12 @@ export class Resume extends React.Component {
                 <ul>
                   <li>
                     {' '}
-                    Shift one of the existing apps from Ionic Framework to React
+                    Import one of the existing apps from Ionic Framework to React
                     Native
                   </li>
                   <li>
                     {' '}
-                    Create a new EPOD (Electronic Proof of Delivery) application
+                    Develop and Implement a new EPOD (Electronic Proof of Delivery) application
                   </li>
                 </ul>
                 <hr style={{ borderWidth: '3px' }} />
@@ -136,8 +136,87 @@ export class Resume extends React.Component {
                 Development, Mobile Application Development, Web Development,
                 Cloud Technology and Blockchain Technology. I have participated
                 in several events. I received the first position in Spell Bee
-                Competition which was held in Innovate 2K15. My CGPA is 8.43
-                (till 5<sup>th</sup> semester)
+                Competition which was held in Innovate 2K15. My CGPA is 8.47
+                (till 6<sup>th</sup> semester)
+              </div>
+            </div>
+            <hr style={{ borderWidth: '3px' }} />
+            <div className={'row'}>
+              <button
+                type={'button'}
+                className={'btn about-me font-tarsus'}
+                style={{ backgroundColor: 'orange', opacity: '1' }}
+                disabled={'disabled'}
+              >
+                <h5>
+                  Achievement <br />  & Courses
+                </h5>
+              </button>
+              <div
+                className={
+                  'col-md-9 font-tarsus align-self-center text-justify'
+                }
+                style={{ paddingLeft: '1em', fontSize: '1.1em' }}
+              >
+                <strong>Courses</strong>
+                <ul>
+                  <li>Data Science Specialisation by John Hopkin's University (On Going)
+                    <ul>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/6ZHQZ4FTPKWL" rel="noopener noreferrer" target="_blank">
+                          The Data Scientist's Toolbox
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/DCS8FYKD49NC" target="_blank" rel="noopener noreferrer">
+                          R Programming
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/M45HZHKW8B3G" target="_blank" rel="noopener noreferrer">
+                          Getting and Cleaning Data
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/4MBEWRKLERZS" target="_blank" rel="noopener noreferrer">
+                          Exploratory Data Analysis
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/5HP25VLVTYD9" target="_blank" rel="noopener noreferrer">
+                          Reproducible Research
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="https://www.coursera.org/account/accomplishments/specialization/KSDV2WG2PLZ4" rel="noopener noreferrer" target="_blank">
+                      Developing Applications With Cloud Platform Specialization by Google Cloud
+                      </a>
+                      <ul>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/8VJRACK5E7BL" rel="noopener noreferrer" target="_blank">
+                            Google Cloud Platform Fundamentals: Core Infrastructure
+                          </a>
+                        </li>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/EJF8AW9ERDRY" rel="noopener noreferrer" target="_blank">
+                            Getting Started With Application Development
+                          </a>
+                        </li>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/3NYSFC8YXMY5" rel="noopener noreferrer" target="_blank">
+                            Securing and Integrating Components of your Application
+                          </a>
+                        </li>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/Q2A9E2E7ZAC8" rel="noopener noreferrer" target="_blank">
+                            App Deployment, Debugging, and Performance
+                          </a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a href="https://www.coursera.org/account/accomplishments/certificate/JTZRZRGX2TGT" rel="noopener noreferrer" target="_blank">
+                      IBM Blockchain Foundation for Developers by IBM
+                    </a>
+                  </li>
+                </ul>
+                <hr style={{ borderWidth: '1px' }} />
+                <strong>Achievement</strong>
+                <ul>
+                  <li> Awarded for Excellent Performance in 2018 by SRM Institute of Science and Technology</li>
+                  <li> Global Rank 411 in Google Kickstart Round E 2018</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -151,6 +230,7 @@ export class Resume extends React.Component {
                   <h4 className={'text-center'}>Skills</h4>
                   <hr />
                   <ul>
+                    <li> Data Science</li>
                     <li> Blockchain</li>
                     <li> Web Development</li>
                     <li> Cloud</li>
@@ -173,6 +253,7 @@ export class Resume extends React.Component {
                     <li> C/C++</li>
                     <li> Java</li>
                     <li> Python</li>
+                    <li> R</li>
                     <li> JavaScript</li>
                     <li> ReactJS</li>
                     <li> React Native</li>

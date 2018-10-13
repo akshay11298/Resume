@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38020040-21e0-40aa-b31f-a25ff7fb5314" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Resume/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Resume/Resume.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +19,7 @@
       <file leaf-file-name="Contact.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Menu/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="480">
               <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -53,7 +49,7 @@
       <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="840">
               <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -65,8 +61,11 @@
       <file leaf-file-name="Content.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            <state relative-caret-position="390">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +73,7 @@
       <file leaf-file-name="Resume.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Menu/Resume/Resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="60">
               <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -320,7 +319,9 @@
       <workItem from="1525771995756" duration="2218000" />
       <workItem from="1526005244829" duration="188000" />
       <workItem from="1526005510644" duration="6492000" />
-      <workItem from="1526036918942" duration="2407000" />
+      <workItem from="1526036918942" duration="2843000" />
+      <workItem from="1526227484310" duration="1313000" />
+      <workItem from="1526301481094" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar list added">
       <created>1523888307069</created>
@@ -399,15 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526012741712</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Minor">
+      <created>1526039473834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526039473839</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103130000" />
+    <option name="totallyTimeSpent" value="104988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -442,9 +449,9 @@
     <MESSAGE value="Minor changes for mobile" />
     <MESSAGE value="Projects addition started" />
     <MESSAGE value="Contact me form" />
-    <MESSAGE value="Minor" />
     <MESSAGE value="Form Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form Validation" />
+    <MESSAGE value="Minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -762,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="840">
           <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -772,7 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu/Resume/Resume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="60">
           <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -782,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="480">
           <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -799,8 +806,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        <state relative-caret-position="390">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

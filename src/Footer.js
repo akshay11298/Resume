@@ -93,7 +93,7 @@ export class Footer extends Component {
                         />
                       </a>
                       <a
-                        href="https://www.linkedin.com/in/akshay-avinash-a4a941141/"
+                        href="https://www.linkedin.com/in/akshay11298/"
                         rel="noopener noreferrer"
                         target="_blank"
                       >

@@ -97,6 +97,7 @@ export class Projects extends React.Component {
                   className={'btn about-me font-tarsus'}
                   style={{ opacity: '1' , backgroundColor:'#61d0d4'}}
                   disabled={'disabled'}
+                  
               >
                   <h5>
                       Project | 3

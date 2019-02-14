@@ -160,7 +160,7 @@ export class Resume extends React.Component {
               >
                 <strong>Courses</strong>
                 <ul>
-                  <li>Data Science Specialisation by John Hopkin's University (On Going)
+                  <li>Data Science Specialization by John Hopkin's University (On Going)
                     <ul>
                       <li><a href="https://www.coursera.org/account/accomplishments/certificate/6ZHQZ4FTPKWL" rel="noopener noreferrer" target="_blank">
                           The Data Scientist's Toolbox
@@ -180,6 +180,14 @@ export class Resume extends React.Component {
                       </li>
                       <li><a href="https://www.coursera.org/account/accomplishments/certificate/5HP25VLVTYD9" target="_blank" rel="noopener noreferrer">
                           Reproducible Research
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/TN9ZWBSSDD92" rel="noopener noreferrer" target="_blank">
+                          Statistical Inference
+                        </a>
+                      </li>
+                      <li><a href="https://www.coursera.org/account/accomplishments/certificate/EMCZV9T9AWFR" rel="noopener noreferrer" target="_blank">
+                          Regression Models
                         </a>
                       </li>
                     </ul>
@@ -208,6 +216,10 @@ export class Resume extends React.Component {
                   </li>
                   <li><a href="https://www.coursera.org/account/accomplishments/certificate/JTZRZRGX2TGT" rel="noopener noreferrer" target="_blank">
                       IBM Blockchain Foundation for Developers by IBM
+                    </a>
+                  </li>
+                  <li><a href="https://courses.edx.org/certificates/9ffea12fbf42414aa6fa545ba49717f7" rel="noopener noreferrer" target="_blank">
+                      Introduction to Computer Science and Programming Using Python by MITx
                     </a>
                   </li>
                 </ul>

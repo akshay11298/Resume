@@ -4,7 +4,6 @@ import {
   FaPhone,
   FaEnvelope,
   FaPlusSquare,
-  FaFacebook,
   FaGithubSquare,
   FaLinkedin,
 } from 'react-icons/lib/fa';
@@ -72,13 +71,6 @@ export class Footer extends Component {
                   <strong>
                     Follow Me:<br />
                     <div className={'row'} style={{ fontSize: '1.25em' }}>
-                      <a
-                        href="https://facebook.com/akshay11298"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        <FaFacebook style={{ color: 'white' }} />
-                      </a>
                       <a
                         href="https://github.com/akshay11298"
                         rel="noopener noreferrer"

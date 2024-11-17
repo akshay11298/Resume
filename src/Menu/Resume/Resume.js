@@ -2,8 +2,10 @@ import React from 'react';
 import './resume.css';
 import {FaExclamationCircle} from 'react-icons/lib/fa';
 import {IoAndroidGlobe} from 'react-icons/lib/io';
-import {workExperience} from "./WorkExperience";
+import {getWorkExperience} from "./WorkExperience";
 import {getCertificates} from "./Certificates";
+import {getAchievements} from "./Achievements";
+import {getEducationInfo} from "./EducationInfo";
 
 export class Resume extends React.Component {
 
@@ -67,18 +69,7 @@ export class Resume extends React.Component {
                                 }
                                 style={{paddingLeft: '1em', fontSize: '1.1em'}}
                             >
-                                {workExperience.map((item, index) => (
-                                    <div key={index}>
-                                        <strong>{item.title}</strong>
-                                        <br/>
-                                        <em>{item.period.start} - {item.period.end}</em> <br/>
-                                        <em>{item.organisation}</em> <br/>
-                                        <hr/>
-                                        {item.content}
-
-                                        {index !== workExperience.length - 1 && <hr style={{borderWidth: '3px'}}/>}
-                                    </div>
-                                ))}
+                                {getWorkExperience()}
                             </div>
                         </div>
                         <hr style={{borderWidth: '3px'}}/>
@@ -99,19 +90,7 @@ export class Resume extends React.Component {
                                 }
                                 style={{paddingLeft: '1em', fontSize: '1.1em'}}
                             >
-                                <strong>SRM Institute of Science and Technology</strong>
-                                <br/>
-                                <em>2015 - 2019 (Anticipated)</em> <br/>
-                                <em>B. Tech </em> <br/>
-                                <em>Computer Science and Engineering</em> <br/>
-                                <hr/>
-                                In these three years of college, I have learnt a lot and have
-                                worked on various projects. I have worked on Software
-                                Development, Mobile Application Development, Web Development,
-                                Cloud Technology and Blockchain Technology. I have participated
-                                in several events. I received the first position in Spell Bee
-                                Competition which was held in Innovate 2K15. My CGPA is 8.47
-                                (till 6<sup>th</sup> semester)
+                                {getEducationInfo()}
                             </div>
                         </div>
                         <hr style={{borderWidth: '3px'}}/>
@@ -139,10 +118,7 @@ export class Resume extends React.Component {
                                 <hr style={{borderWidth: '1px'}}/>
                                 <strong>Achievement</strong>
                                 <ul>
-                                    <li> Awarded for Excellent Performance in 2018 by SRM Institute of Science and
-                                        Technology
-                                    </li>
-                                    <li> Global Rank 411 in Google Kickstart Round E 2018</li>
+                                    {getAchievements()}
                                 </ul>
                             </div>
                         </div>

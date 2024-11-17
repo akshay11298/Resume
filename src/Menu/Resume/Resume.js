@@ -2,8 +2,11 @@ import React from 'react';
 import './resume.css';
 import {FaExclamationCircle} from 'react-icons/lib/fa';
 import {IoAndroidGlobe} from 'react-icons/lib/io';
+import {workExperience} from "./WorkExperience";
+import {getCertificates} from "./Certificates";
 
 export class Resume extends React.Component {
+
     componentDidMount() {
         document.getElementsByTagName("header")[1].scrollIntoView();
     }
@@ -64,44 +67,18 @@ export class Resume extends React.Component {
                                 }
                                 style={{paddingLeft: '1em', fontSize: '1.1em'}}
                             >
-                                <strong>React Native Intern</strong>
-                                <br/>
-                                <em>11 December 2017 - 22 January 2018</em> <br/>
-                                <em>Dipper Technologies</em> <br/>
-                                <hr/>
-                                I interned as a React Native developer in the organisation. I
-                                worked on building cross platform applications using React
-                                Native. Since the technology was new to me, it provided a great
-                                working and learning experience. I worked in a team, and was
-                                consistently guided by my supervisor to overcome my
-                                shortcomings. We had two tasks at hand:
-                                <ul>
-                                    <li>
-                                        {' '}
-                                        Import one of the existing apps from Ionic Framework to React
-                                        Native
-                                    </li>
-                                    <li>
-                                        {' '}
-                                        Develop and Implement a new EPOD (Electronic Proof of Delivery) application
-                                    </li>
-                                </ul>
-                                <hr style={{borderWidth: '3px'}}/>
-                                <strong>Software Developer Intern</strong>
-                                <br/>
-                                <em>14 June 2017 - 10 July 2017</em> <br/>
-                                <em>NBCC (India) Ltd</em> <br/>
-                                <hr/>
-                                I interned as a Software developer in the organisation. I worked
-                                on building a desktop application for the organisation for the
-                                purpose of canteen management. I planned and developed the
-                                complete application on my own with some feedback from my
-                                colleagues and help from my seniors. I developed the application
-                                using JavaFx. The main idea was to:
-                                <ul>
-                                    <li> Reduce labour load and paper wastage</li>
-                                    <li> Efficient and easy to use interface</li>
-                                </ul>
+                                {workExperience.map((item, index) => (
+                                    <div key={index}>
+                                        <strong>{item.title}</strong>
+                                        <br/>
+                                        <em>{item.period.start} - {item.period.end}</em> <br/>
+                                        <em>{item.organisation}</em> <br/>
+                                        <hr/>
+                                        {item.content}
+
+                                        {index !== workExperience.length - 1 && <hr style={{borderWidth: '3px'}}/>}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                         <hr style={{borderWidth: '3px'}}/>
@@ -157,95 +134,7 @@ export class Resume extends React.Component {
                             >
                                 <strong>Courses</strong>
                                 <ul>
-                                    <li>Data Science Specialization by John Hopkin's University (On Going)
-                                        <ul>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/6ZHQZ4FTPKWL"
-                                                rel="noopener noreferrer" target="_blank">
-                                                The Data Scientist's Toolbox
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/DCS8FYKD49NC"
-                                                target="_blank" rel="noopener noreferrer">
-                                                R Programming
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/M45HZHKW8B3G"
-                                                target="_blank" rel="noopener noreferrer">
-                                                Getting and Cleaning Data
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/4MBEWRKLERZS"
-                                                target="_blank" rel="noopener noreferrer">
-                                                Exploratory Data Analysis
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/5HP25VLVTYD9"
-                                                target="_blank" rel="noopener noreferrer">
-                                                Reproducible Research
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/TN9ZWBSSDD92"
-                                                rel="noopener noreferrer" target="_blank">
-                                                Statistical Inference
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/certificate/EMCZV9T9AWFR"
-                                                rel="noopener noreferrer" target="_blank">
-                                                Regression Models
-                                            </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                        href="https://www.coursera.org/account/accomplishments/specialization/KSDV2WG2PLZ4"
-                                        rel="noopener noreferrer" target="_blank">
-                                        Developing Applications With Cloud Platform Specialization by Google Cloud
-                                    </a>
-                                        <ul>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/verify/8VJRACK5E7BL"
-                                                rel="noopener noreferrer" target="_blank">
-                                                Google Cloud Platform Fundamentals: Core Infrastructure
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/verify/EJF8AW9ERDRY"
-                                                rel="noopener noreferrer" target="_blank">
-                                                Getting Started With Application Development
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/verify/3NYSFC8YXMY5"
-                                                rel="noopener noreferrer" target="_blank">
-                                                Securing and Integrating Components of your Application
-                                            </a>
-                                            </li>
-                                            <li><a
-                                                href="https://www.coursera.org/account/accomplishments/verify/Q2A9E2E7ZAC8"
-                                                rel="noopener noreferrer" target="_blank">
-                                                App Deployment, Debugging, and Performance
-                                            </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                        href="https://www.coursera.org/account/accomplishments/certificate/JTZRZRGX2TGT"
-                                        rel="noopener noreferrer" target="_blank">
-                                        IBM Blockchain Foundation for Developers by IBM
-                                    </a>
-                                    </li>
-                                    <li><a href="https://courses.edx.org/certificates/9ffea12fbf42414aa6fa545ba49717f7"
-                                           rel="noopener noreferrer" target="_blank">
-                                        Introduction to Computer Science and Programming Using Python by MITx
-                                    </a>
-                                    </li>
+                                    {getCertificates()}
                                 </ul>
                                 <hr style={{borderWidth: '1px'}}/>
                                 <strong>Achievement</strong>

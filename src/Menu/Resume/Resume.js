@@ -1,11 +1,11 @@
 import React from 'react';
 import './resume.css';
 import {FaExclamationCircle} from 'react-icons/lib/fa';
-import {IoAndroidGlobe} from 'react-icons/lib/io';
 import {getWorkExperience} from "./WorkExperience";
 import {getCertificates} from "./Certificates";
 import {getAchievements} from "./Achievements";
 import {getEducationInfo} from "./EducationInfo";
+import {getSkills} from "./Skills";
 
 export class Resume extends React.Component {
 
@@ -126,38 +126,7 @@ export class Resume extends React.Component {
                                 <div className={'font-tarsus'}>
                                     <h4 className={'text-center'}>Skills</h4>
                                     <hr/>
-                                    <ul>
-                                        <li> Data Science</li>
-                                        <li> Blockchain</li>
-                                        <li> Web Development</li>
-                                        <li> Cloud</li>
-                                        <li> Database Management</li>
-                                        <li> Networking</li>
-                                        <li> Machine Learning (Basic)</li>
-                                        <li> MS Office Suite</li>
-                                        <li> Adobe Photoshop (Basic)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className={'col-md-12 col-sm-6 col-xs-6 icons'}>
-                                <div className={'text-center'} style={{fontSize: '4em'}}>
-                                    <IoAndroidGlobe/>
-                                </div>
-                                <div className={'font-tarsus'}>
-                                    <h4 className={'text-center'}>Languages</h4>
-                                    <hr/>
-                                    <ul>
-                                        <li> C/C++</li>
-                                        <li> Java</li>
-                                        <li> Python</li>
-                                        <li> R</li>
-                                        <li> JavaScript</li>
-                                        <li> ReactJS</li>
-                                        <li> React Native</li>
-                                        <li> HTML/CSS</li>
-                                        <li> SQL</li>
-                                        <li> PHP</li>
-                                    </ul>
+                                    {getSkills()}
                                 </div>
                             </div>
                         </div>

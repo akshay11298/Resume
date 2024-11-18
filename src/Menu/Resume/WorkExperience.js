@@ -19,14 +19,11 @@ const workExperience = [
             start: "April 2021",
             end: "Till Present"
         },
-        organisation: "SAP Labs (Project - Sustainability Footprint Management)",
+        organisation: "SAP Labs (Product - Sustainability Footprint Management)",
         content: <div>
-            I interned as a React Native developer in the organisation. I
-            worked on building cross platform applications using React
-            Native. Since the technology was new to me, it provided a great
-            working and learning experience. I worked in a team, and was
-            consistently guided by my supervisor to overcome my
-            shortcomings. We had two tasks at hand:
+            I work as a full stack developer for the Sustainability suite in SAP. I got to explore multiple SAP
+            frameworks and tools used. This has expanded my knowledge and possibilities within an organisation. I also
+            got the opportunity to explore Product Management and Business AI here. My role included :
             <ul>
                 <li>
                     Designed and developed full-stack applications aligned with customer requirements, using Agile
@@ -62,9 +59,9 @@ const workExperience = [
             Java 8, DB2 Database, JSF, Hibernate. I am part of the Benefits team, i.e., I develop claimants' side of
             application. My role in this project is of a Java Developer and my responsibilities are:
             <ul>
-                <li> Developed the web application as a backend and database engineer, impacting ~2,20,000 users </li>
-                <li> Improved the UI, as an additional responsibility, to improve client engagement by up to 50% </li>
-                <li> Role includes Java development, testing and data modelling through Embarcadero ER/Studio </li>
+                <li> Developed the web application as a backend and database engineer, impacting ~2,20,000 users</li>
+                <li> Improved the UI, as an additional responsibility, to improve client engagement by up to 50%</li>
+                <li> Role includes Java development, testing and data modelling through Embarcadero ER/Studio</li>
             </ul>
         </div>
     }, {
@@ -83,7 +80,7 @@ const workExperience = [
             project, and with proper configuration, it would understand the context and implement actions like
             navigation, filling forms. Tasks performed during internship were:
             <ul>
-                <li> Develop a library to recognize voice commands even when not in English </li>
+                <li> Develop a library to recognize voice commands even when not in English</li>
                 <li>
                     Implemented this feature in a new React JS app (MERN Stack with GraphQL), React Native app and an
                     existing Angular app

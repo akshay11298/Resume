@@ -2,7 +2,7 @@ import React from 'react';
 
 export const getEducationInfo = () => EducationalInfo.map((info, index) =>
     <div>
-        <strong>{info.institute}</strong>
+        <strong>{info.institute}</strong>, {info.location}
         <br/>
         <em>{info.duration.start} - {info.duration.end}</em> <br/>
         <em>{info.course}</em> <br/>

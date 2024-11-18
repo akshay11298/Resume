@@ -1,23 +1,30 @@
 import React from "react";
 
-export const getCertificates = () => {
-    return Certificates.map(certificate => {
-        if (certificate.isCollection) {
-            return <li>
-                {getCertificateItem(certificate)}
-                <ul>
-                    {certificate.elements.map((item, index) =>
-                        <li>
-                            {getCertificateItem(item)}
+export const getCertificates = () =>
+
+    <div>
+        <strong>Courses</strong>
+        <ul>
+            {
+                Certificates.map(certificate => {
+                    if (certificate.isCollection) {
+                        return <li>
+                            {getCertificateItem(certificate)}
+                            <ul>
+                                {certificate.elements.map((item, index) =>
+                                    <li>
+                                        {getCertificateItem(item)}
+                                    </li>
+                                )}
+                            </ul>
                         </li>
-                    )}
-                </ul>
-            </li>
-        } else {
-            return <li>{getCertificateItem(certificate)}</li>
-        }
-    })
-}
+                    } else {
+                        return <li>{getCertificateItem(certificate)}</li>
+                    }
+                })
+            }
+        </ul>
+    </div>;
 
 const getCertificateItem = ({title, link}) => link ? <a
     href={link}

@@ -1,9 +1,12 @@
 import React from 'react';
 
 export const getAchievements = () =>
-    <ul>
-        {Achievements.map((achievement, index) => <li key={index}> {achievement}</li>)}
-    </ul>;
+
+    <div><strong>Achievement</strong>
+        <ul>
+            {Achievements.map((achievement, index) => <li key={index}> {achievement}</li>)}
+        </ul>
+    </div>
 
 
 const Achievements = [

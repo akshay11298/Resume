@@ -111,15 +111,9 @@ export class Resume extends React.Component {
                                 }
                                 style={{paddingLeft: '1em', fontSize: '1.1em'}}
                             >
-                                <strong>Courses</strong>
-                                <ul>
-                                    {getCertificates()}
-                                </ul>
+                                {getCertificates()}
                                 <hr style={{borderWidth: '1px'}}/>
-                                <strong>Achievement</strong>
-                                <ul>
-                                    {getAchievements()}
-                                </ul>
+                                {getAchievements()}
                             </div>
                         </div>
                     </div>
